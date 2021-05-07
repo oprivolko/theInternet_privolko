@@ -1,0 +1,149 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "class org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement cannot be cast to class org.openqa.selenium.support.ui.Select (org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement and org.openqa.selenium.support.ui.Select are in unnamed module of loader 'app')",
+      "children" : [ {
+        "name" : "testSelectOption",
+        "uid" : "a03bb817a0375d97",
+        "parentUid" : "a96ea383c6be8cd45f31c882f6e814cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620403992133,
+          "stop" : 1620403992578,
+          "duration" : 445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a96ea383c6be8cd45f31c882f6e814cc"
+    }, {
+      "name" : "src\\test\\resources\\screenshots\\screenshottestSelectOptionpng (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "recordFailure",
+        "uid" : "ffd74e9a24d42463",
+        "parentUid" : "c5409516cadd0fc8d563c5bce1275bb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620403993034,
+          "stop" : 1620403993035,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5409516cadd0fc8d563c5bce1275bb0"
+    }, {
+      "name" : "src\\test\\resources\\screenshots\\screenshottestHoverUserpng (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "recordFailure",
+        "uid" : "319f968c5ab790b3",
+        "parentUid" : "313ea5cb380837e16bf55c5e99aab98a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620404027495,
+          "stop" : 1620404027495,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "313ea5cb380837e16bf55c5e99aab98a"
+    }, {
+      "name" : "src\\test\\resources\\screenshots\\screenshottestSuccessfulLoginpng (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "recordFailure",
+        "uid" : "6cc9b3db2fd742b1",
+        "parentUid" : "5117dbdd9630b84793906463c034bb0c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620404057657,
+          "stop" : 1620404057658,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5117dbdd9630b84793906463c034bb0c"
+    }, {
+      "name" : "src\\test\\resources\\screenshots\\screenshottestSliderspng (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "recordFailure",
+        "uid" : "f7b30279ff8a5541",
+        "parentUid" : "a813c561bce9ab424a0090fee11c5ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620404104244,
+          "stop" : 1620404104245,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a813c561bce9ab424a0090fee11c5ddf"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "wrong link href attr expected [/user/1] but found [http://the-internet.herokuapp.com/users/1]",
+      "children" : [ {
+        "name" : "testHoverUser",
+        "uid" : "5563bd76b0b863b4",
+        "parentUid" : "04042c712494b36e0459189041aea0b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620404024741,
+          "stop" : 1620404026896,
+          "duration" : 2155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04042c712494b36e0459189041aea0b0"
+    }, {
+      "name" : "Message is wrong expected [You logged into a secure area!\n×] but found [Your username is invalid!\n×]",
+      "children" : [ {
+        "name" : "testSuccessfulLogin",
+        "uid" : "1b803595749e82da",
+        "parentUid" : "c258eb22da988dc679810df929d4cf39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620404054947,
+          "stop" : 1620404057056,
+          "duration" : 2109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c258eb22da988dc679810df929d4cf39"
+    }, {
+      "name" : "wrong slider value expected [4] but found [[[ChromeDriver: chrome on WINDOWS (964002250c1bb514e4094293df6a7eed)] -> xpath: //*[@id='range']]]",
+      "children" : [ {
+        "name" : "testSliders",
+        "uid" : "57bf02de45c31f6",
+        "parentUid" : "5482e324c21307b68a86ba7713823958",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620404102618,
+          "stop" : 1620404103506,
+          "duration" : 888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5482e324c21307b68a86ba7713823958"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

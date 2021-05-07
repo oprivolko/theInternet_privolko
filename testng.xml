@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/firstProject/theInternet_privolko">
+        <classes>
+            <class name="alerts.AlertTests">
+                <methods>
+                    <include name="testAlert"/>
+                    <include name="testConfirm"/>
+                    <include name="testPrompt"/>
+                </methods>
+            </class>
+            <class name="dropdown.DropDownTests">
+                <methods>
+                    <include name="testSelectOption"/>
+                </methods>
+            </class>
+            <class name="fileUpload.FileUploadTests">
+                <methods>
+                    <include name="testFileUpload"/>
+                </methods>
+            </class>
+            <class name="frames.FrameTests">
+                <methods>
+                    <include name="testEditor"/>
+                </methods>
+            </class>
+            <class name="hovers.HoversTests">
+                <methods>
+                    <include name="testHoverUser"/>
+                </methods>
+            </class>
+            <class name="js.JavaScriptTests">
+                <methods>
+                    <include name="testJS"/>
+                </methods>
+            </class>
+            <class name="keys.KeysTests">
+                <methods>
+                    <include name="testBackSpace"/>
+                    <include name="testShortCuts"/>
+                </methods>
+            </class>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+            <class name="modals.ModalTests">
+                <methods>
+                    <include name="testModal"/>
+                </methods>
+            </class>
+            <class name="navigation.NavigationTests">
+                <methods>
+                    <include name="testNavigation"/>
+                    <include name="testSwitchToTab"/>
+                </methods>
+            </class>
+            <class name="sliders.HorizontalSliderTests">
+                <methods>
+                    <include name="testSliders"/>
+                </methods>
+            </class>
+            <class name="wait.WaitTests">
+                <methods>
+                    <include name="testWaits"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,126 @@
+{
+  "uid" : "cb7a7af486e0705d",
+  "name" : "testPrompt",
+  "fullName" : "alerts.AlertTests.testPrompt",
+  "historyId" : "a1e0299dd5c41fbbe4d217e4ecae2389",
+  "time" : {
+    "start" : 1620403982866,
+    "stop" : 1620403983774,
+    "duration" : 908
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1620403969441,
+      "stop" : 1620403978457,
+      "duration" : 9016
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1620403982477,
+      "stop" : 1620403982863,
+      "duration" : 386
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1620403983778,
+      "stop" : 1620403983778,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1620403983781,
+      "stop" : 1620403985903,
+      "duration" : 2122
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "alerts.AlertTests"
+  }, {
+    "name" : "testClass",
+    "value" : "alerts.AlertTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPrompt"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "E:/firstProject/theInternet_privolko"
+  }, {
+    "name" : "subSuite",
+    "value" : "alerts.AlertTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1V0AU27"
+  }, {
+    "name" : "thread",
+    "value" : "20444@DESKTOP-1V0AU27.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb7a7af486e0705d.json",
+  "parameterValues" : [ ]
+}

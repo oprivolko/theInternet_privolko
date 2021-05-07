@@ -1,0 +1,201 @@
+[ {
+  "uid" : "e9aeaac48cf86c4a",
+  "name" : "testBackSpace",
+  "time" : {
+    "start" : 1620404045912,
+    "stop" : 1620404046788,
+    "duration" : 876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e952eeea138f9c83",
+  "name" : "testNavigation",
+  "time" : {
+    "start" : 1620404080213,
+    "stop" : 1620404088433,
+    "duration" : 8220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef6157e693cce4db",
+  "name" : "testAlert",
+  "time" : {
+    "start" : 1620403979552,
+    "stop" : 1620403980963,
+    "duration" : 1411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70fd99a2c8bfee44",
+  "name" : "testWaits",
+  "time" : {
+    "start" : 1620404113017,
+    "stop" : 1620404121204,
+    "duration" : 8187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cc9b3db2fd742b1",
+  "name" : "recordFailure",
+  "time" : {
+    "start" : 1620404057657,
+    "stop" : 1620404057658,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b803595749e82da",
+  "name" : "testSuccessfulLogin",
+  "time" : {
+    "start" : 1620404054947,
+    "stop" : 1620404057056,
+    "duration" : 2109
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2702ffeed6645a9e",
+  "name" : "testJS",
+  "time" : {
+    "start" : 1620404034555,
+    "stop" : 1620404036877,
+    "duration" : 2322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb7a7af486e0705d",
+  "name" : "testPrompt",
+  "time" : {
+    "start" : 1620403982866,
+    "stop" : 1620403983774,
+    "duration" : 908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd74e9a24d42463",
+  "name" : "recordFailure",
+  "time" : {
+    "start" : 1620403993034,
+    "stop" : 1620403993035,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "319f968c5ab790b3",
+  "name" : "recordFailure",
+  "time" : {
+    "start" : 1620404027495,
+    "stop" : 1620404027495,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2ec586809747424c",
+  "name" : "testConfirm",
+  "time" : {
+    "start" : 1620403981435,
+    "stop" : 1620403982316,
+    "duration" : 881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88c9bfbed2ff9b78",
+  "name" : "testFileUpload",
+  "time" : {
+    "start" : 1620403998936,
+    "stop" : 1620404003182,
+    "duration" : 4246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b89b6ea0fb717cfb",
+  "name" : "testModal",
+  "time" : {
+    "start" : 1620404067521,
+    "stop" : 1620404069946,
+    "duration" : 2425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a03bb817a0375d97",
+  "name" : "testSelectOption",
+  "time" : {
+    "start" : 1620403992133,
+    "stop" : 1620403992578,
+    "duration" : 445
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4530cb005e903947",
+  "name" : "testEditor",
+  "time" : {
+    "start" : 1620404010351,
+    "stop" : 1620404016276,
+    "duration" : 5925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5563bd76b0b863b4",
+  "name" : "testHoverUser",
+  "time" : {
+    "start" : 1620404024741,
+    "stop" : 1620404026896,
+    "duration" : 2155
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7b30279ff8a5541",
+  "name" : "recordFailure",
+  "time" : {
+    "start" : 1620404104244,
+    "stop" : 1620404104245,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "427718b158006375",
+  "name" : "testSwitchToTab",
+  "time" : {
+    "start" : 1620404090207,
+    "stop" : 1620404091427,
+    "duration" : 1220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57bf02de45c31f6",
+  "name" : "testSliders",
+  "time" : {
+    "start" : 1620404102618,
+    "stop" : 1620404103506,
+    "duration" : 888
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a63df8d6a3b4c56",
+  "name" : "testShortCuts",
+  "time" : {
+    "start" : 1620404047082,
+    "stop" : 1620404047775,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

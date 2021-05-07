@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 8, Errors: 0, Skipped: 4, Time elapsed: 219.736 s <<< FAILURE! - in TestSuite
+testSelectOption(dropdown.DropDownTests)  Time elapsed: 0.706 s  <<< FAILURE!
+java.lang.ClassCastException: class org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement cannot be cast to class org.openqa.selenium.support.ui.Select (org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement and org.openqa.selenium.support.ui.Select are in unnamed module of loader 'app')
+	at dropdown.DropDownTests.testSelectOption(DropDownTests.java:17)
+
+recordFailure(dropdown.DropDownTests)  Time elapsed: 1.183 s  <<< FAILURE!
+java.io.FileNotFoundException: src\test\resources\screenshots\screenshottestSelectOptionpng (The system cannot find the path specified)
+
+testHoverUser(hovers.HoversTests)  Time elapsed: 2.192 s  <<< FAILURE!
+java.lang.AssertionError: wrong link href attr expected [/user/1] but found [http://the-internet.herokuapp.com/users/1]
+	at hovers.HoversTests.testHoverUser(HoversTests.java:22)
+
+recordFailure(hovers.HoversTests)  Time elapsed: 3.604 s  <<< FAILURE!
+java.io.FileNotFoundException: src\test\resources\screenshots\screenshottestHoverUserpng (The system cannot find the path specified)
+
+testSuccessfulLogin(login.LoginTests)  Time elapsed: 2.939 s  <<< FAILURE!
+java.lang.AssertionError: 
+Message is wrong expected [You logged into a secure area!
+×] but found [Your username is invalid!
+×]
+	at login.LoginTests.testSuccessfulLogin(LoginTests.java:18)
+
+recordFailure(login.LoginTests)  Time elapsed: 3.57 s  <<< FAILURE!
+java.io.FileNotFoundException: src\test\resources\screenshots\screenshottestSuccessfulLoginpng (The system cannot find the path specified)
+
+testSliders(sliders.HorizontalSliderTests)  Time elapsed: 0.801 s  <<< FAILURE!
+java.lang.AssertionError: wrong slider value expected [4] but found [[[ChromeDriver: chrome on WINDOWS (2bebb34c4dcd5ee0519e965c95861a22)] -> xpath: //*[@id='range']]]
+	at sliders.HorizontalSliderTests.testSliders(HorizontalSliderTests.java:12)
+
+recordFailure(sliders.HorizontalSliderTests)  Time elapsed: 1.268 s  <<< FAILURE!
+java.io.FileNotFoundException: src\test\resources\screenshots\screenshottestSliderspng (The system cannot find the path specified)
+

@@ -1,0 +1,390 @@
+{
+  "5f3879e276fdc2dfd8b666d1ce8ba469" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7b30279ff8a5541",
+      "status" : "broken",
+      "statusDetails" : "src\\test\\resources\\screenshots\\screenshottestSliderspng (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1620404104244,
+        "stop" : 1620404104245,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9dcbab0cf500f3f0b223a0361c3088e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2702ffeed6645a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404034555,
+        "stop" : 1620404036877,
+        "duration" : 2322
+      }
+    } ]
+  },
+  "4e0e197d2cee0aa60839c8916cefbb91" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ec586809747424c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620403981435,
+        "stop" : 1620403982316,
+        "duration" : 881
+      }
+    } ]
+  },
+  "b5a200b70e95a3226acd1d3273b4dcf7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b803595749e82da",
+      "status" : "failed",
+      "statusDetails" : "Message is wrong expected [You logged into a secure area!\n×] but found [Your username is invalid!\n×]",
+      "time" : {
+        "start" : 1620404054947,
+        "stop" : 1620404057056,
+        "duration" : 2109
+      }
+    } ]
+  },
+  "8f50fd8a99aa96d9bed11a734dcdac18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cc9b3db2fd742b1",
+      "status" : "broken",
+      "statusDetails" : "src\\test\\resources\\screenshots\\screenshottestSuccessfulLoginpng (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1620404057657,
+        "stop" : 1620404057658,
+        "duration" : 1
+      }
+    } ]
+  },
+  "da2538c8d3ac24486f13ee2fda70678" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5563bd76b0b863b4",
+      "status" : "failed",
+      "statusDetails" : "wrong link href attr expected [/user/1] but found [http://the-internet.herokuapp.com/users/1]",
+      "time" : {
+        "start" : 1620404024741,
+        "stop" : 1620404026896,
+        "duration" : 2155
+      }
+    } ]
+  },
+  "6aa84d4a5e9f279e6a8abe15732c99cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4530cb005e903947",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404010351,
+        "stop" : 1620404016276,
+        "duration" : 5925
+      }
+    } ]
+  },
+  "f55eeb1852b3081afc7e8612e829db6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e952eeea138f9c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404080213,
+        "stop" : 1620404088433,
+        "duration" : 8220
+      }
+    } ]
+  },
+  "68541619ac1b568a6129ae2285c51570" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "319f968c5ab790b3",
+      "status" : "broken",
+      "statusDetails" : "src\\test\\resources\\screenshots\\screenshottestHoverUserpng (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1620404027495,
+        "stop" : 1620404027495,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d78c79843833f1a1eae18be1f7f64017" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9aeaac48cf86c4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404045912,
+        "stop" : 1620404046788,
+        "duration" : 876
+      }
+    } ]
+  },
+  "bfbd16aa682fcdf47b70872644389b33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a63df8d6a3b4c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404047082,
+        "stop" : 1620404047775,
+        "duration" : 693
+      }
+    } ]
+  },
+  "63a3c9ae9ae45569879e9ac1c1fddbdb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b89b6ea0fb717cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404067521,
+        "stop" : 1620404069946,
+        "duration" : 2425
+      }
+    } ]
+  },
+  "ec44e6955f4d06fe6bc0a8602fc9d095" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57bf02de45c31f6",
+      "status" : "failed",
+      "statusDetails" : "wrong slider value expected [4] but found [[[ChromeDriver: chrome on WINDOWS (964002250c1bb514e4094293df6a7eed)] -> xpath: //*[@id='range']]]",
+      "time" : {
+        "start" : 1620404102618,
+        "stop" : 1620404103506,
+        "duration" : 888
+      }
+    } ]
+  },
+  "b8a41e58f2058fc9006073d5525fdf05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffd74e9a24d42463",
+      "status" : "broken",
+      "statusDetails" : "src\\test\\resources\\screenshots\\screenshottestSelectOptionpng (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1620403993034,
+        "stop" : 1620403993035,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a1e0299dd5c41fbbe4d217e4ecae2389" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb7a7af486e0705d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620403982866,
+        "stop" : 1620403983774,
+        "duration" : 908
+      }
+    } ]
+  },
+  "96db97dfea239f9e268fef9000796332" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef6157e693cce4db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620403979552,
+        "stop" : 1620403980963,
+        "duration" : 1411
+      }
+    } ]
+  },
+  "8b16412c05fda7baef89b3e191ac06a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a03bb817a0375d97",
+      "status" : "broken",
+      "statusDetails" : "class org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement cannot be cast to class org.openqa.selenium.support.ui.Select (org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement and org.openqa.selenium.support.ui.Select are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1620403992133,
+        "stop" : 1620403992578,
+        "duration" : 445
+      }
+    } ]
+  },
+  "b1977e51191c9b0315f3d3aeed65cd3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70fd99a2c8bfee44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404113017,
+        "stop" : 1620404121204,
+        "duration" : 8187
+      }
+    } ]
+  },
+  "9717f07d4fcf8cd010aa7f1fdd9dcdf8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "427718b158006375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620404090207,
+        "stop" : 1620404091427,
+        "duration" : 1220
+      }
+    } ]
+  },
+  "4929e68ef4f062167efa7fd5e259463d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88c9bfbed2ff9b78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620403998936,
+        "stop" : 1620404003182,
+        "duration" : 4246
+      }
+    } ]
+  }
+}

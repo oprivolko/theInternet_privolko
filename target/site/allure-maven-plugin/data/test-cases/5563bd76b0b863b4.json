@@ -1,0 +1,134 @@
+{
+  "uid" : "5563bd76b0b863b4",
+  "name" : "testHoverUser",
+  "fullName" : "hovers.HoversTests.testHoverUser",
+  "historyId" : "da2538c8d3ac24486f13ee2fda70678",
+  "time" : {
+    "start" : 1620404024741,
+    "stop" : 1620404026896,
+    "duration" : 2155
+  },
+  "status" : "failed",
+  "statusMessage" : "wrong link href attr expected [/user/1] but found [http://the-internet.herokuapp.com/users/1]",
+  "statusTrace" : "java.lang.AssertionError: wrong link href attr expected [/user/1] but found [http://the-internet.herokuapp.com/users/1]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat hovers.HoversTests.testHoverUser(HoversTests.java:22)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1540)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1620404017849,
+      "stop" : 1620404023673,
+      "duration" : 5824
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1620404023674,
+      "stop" : 1620404024726,
+      "duration" : 1052
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1620404027502,
+      "stop" : 1620404027503,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1620404026901,
+      "stop" : 1620404027482,
+      "duration" : 581
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "src\\test\\resources\\screenshots\\screenshottestHoverUserpng (The system cannot find the path specified)",
+    "statusTrace" : "java.io.FileNotFoundException: src\\test\\resources\\screenshots\\screenshottestHoverUserpng (The system cannot find the path specified)\r\n\tat java.base/java.io.FileOutputStream.open0(Native Method)\r\n\tat java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)\r\n\tat java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)\r\n\tat com.google.common.io.Files$FileByteSink.openStream(Files.java:192)\r\n\tat com.google.common.io.Files$FileByteSink.openStream(Files.java:180)\r\n\tat com.google.common.io.ByteSource.copyTo(ByteSource.java:268)\r\n\tat com.google.common.io.Files.copy(Files.java:319)\r\n\tat com.google.common.io.Files.move(Files.java:478)\r\n\tat base.BaseTests.takeScreenshot(BaseTests.java:61)\r\n\tat base.BaseTests.recordFailure(BaseTests.java:67)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\r\n\tat org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1540)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "hovers.HoversTests"
+  }, {
+    "name" : "testClass",
+    "value" : "hovers.HoversTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHoverUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "E:/firstProject/theInternet_privolko"
+  }, {
+    "name" : "subSuite",
+    "value" : "hovers.HoversTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1V0AU27"
+  }, {
+    "name" : "thread",
+    "value" : "20444@DESKTOP-1V0AU27.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5563bd76b0b863b4.json",
+  "parameterValues" : [ ]
+}

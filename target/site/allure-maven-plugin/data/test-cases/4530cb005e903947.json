@@ -1,0 +1,126 @@
+{
+  "uid" : "4530cb005e903947",
+  "name" : "testEditor",
+  "fullName" : "frames.FrameTests.testEditor",
+  "historyId" : "6aa84d4a5e9f279e6a8abe15732c99cc",
+  "time" : {
+    "start" : 1620404010351,
+    "stop" : 1620404016276,
+    "duration" : 5925
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "goHome",
+    "time" : {
+      "start" : 1620404009889,
+      "stop" : 1620404010340,
+      "duration" : 451
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1620404004630,
+      "stop" : 1620404009887,
+      "duration" : 5257
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "recordFailure",
+    "time" : {
+      "start" : 1620404016279,
+      "stop" : 1620404016279,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1620404016282,
+      "stop" : 1620404017848,
+      "duration" : 1566
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "frames.FrameTests"
+  }, {
+    "name" : "testClass",
+    "value" : "frames.FrameTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testEditor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "E:/firstProject/theInternet_privolko"
+  }, {
+    "name" : "subSuite",
+    "value" : "frames.FrameTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1V0AU27"
+  }, {
+    "name" : "thread",
+    "value" : "20444@DESKTOP-1V0AU27.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4530cb005e903947.json",
+  "parameterValues" : [ ]
+}
